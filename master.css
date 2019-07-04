@@ -1,6 +1,10 @@
 body {
   background-color: grey;
 }
+.settings > p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
 canvas {
   display: block;
   margin: 20px;
