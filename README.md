@@ -1,3 +1,5 @@
 # terrain-generation
-## Probably terrain generation with p5.js
-###i dont promise anything
+## Terrain generation with p5.js
+### How to use:
+1. Download all files.
+2. Open "index.js".

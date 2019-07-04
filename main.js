@@ -33,9 +33,11 @@ function setup() {
     tops[tops.length] = Math.ceil(drawPoint - 10);
   }
   console.log(tops.length);
-  for (var i = 1; i < 6; i++) {
-    tree((width / 5) * i, tops[tops / i]);
+  var trees = Math.floor(3 + Math.random() * 9);
+  for (var i = 1; i < trees + 1; i++) {
+    tree(((width / trees) * i), tops[Math.floor((tops.length / trees) * i)] + 5);
   }
+  console.log('trees done');
 
 }
 function tree(x, y) {
