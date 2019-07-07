@@ -1,5 +1,6 @@
 body {
   background-color: rgb(153, 207, 255);
+  margin: 0px;
 }
 .settings > p {
   margin: 0px;
@@ -7,5 +8,5 @@ body {
 }
 canvas {
   display: block;
-  margin: 20px;
+  margin: none;
 }
